@@ -92,5 +92,5 @@ var supportedDatabaseFlavors = map[string]DatabaseFlavor{
 	"mysql":    &sqlDatabaseFlavor{"mysql", mySQLDataSourceName, checkSQLQuery},
 	"mssql":    &sqlDatabaseFlavor{"mssql", sqlServerDataSourceName, checkSQLQuery},
 	"postgres": &sqlDatabaseFlavor{"postgres", postgresDataSourceName, checkSQLQuery},
-        "sqlite3":   &sqlDatabaseFlavor{"sqlite3", sqliteDataSourceName, checkSQLQuery},
+	"sqlite3":  &sqlDatabaseFlavor{"sqlite3", sqliteDataSourceName, checkSQLQuery},
 }

@@ -234,5 +234,5 @@ func sqlServerDataSourceName(cc *ConnectionConfig) string {
 }
 
 func sqliteDataSourceName(cc *ConnectionConfig) string {
-    return fmt.Sprintf("%s", firstString(cc.Host, "")) //TODO: support sqlite options
+	return fmt.Sprintf("%s", firstString(cc.Host, "")) //TODO: support sqlite options
 }
